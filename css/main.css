@@ -1,0 +1,60 @@
+/* universal styling */
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+
+/* body styling */
+body{
+    /* margin: 0; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* first class styling */
+
+.first{
+    background-color: hsla(101, 44%, 52%, 0.397);
+    padding:5px 5% 2% 5%;
+    color:rgb(37, 31, 31);
+    margin: 0 6% 0;
+    font-size: 1.0rem;
+    line-height: 1.5;
+    box-shadow: 2px 2px 3px #a8bbac, -2px -2px 3px #a8bbac;
+}
+.first:first-child{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.first img{
+    border-radius: 50%;
+    /* margin-top: 10px; */
+}
+
+/* second class styling */
+
+.second {
+    padding: 5px 5% 5% 5%;
+    font-size: 1.0rem;
+    line-height: 1.5;
+    margin: 0 6% 0;
+    box-shadow: 2px 2px 5px #a8bbac, -2px -2px 5px #a8bbac;
+
+}
+
+.second:last-child{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* heading tag styling */
+h1 , h3 {
+    margin-top: 4px;
+    margin-bottom:4px;
+}
+
+/* paragraph styling */
+p{ 
+     margin-top: 2%;
+    margin-bottom: 4px;
+}
