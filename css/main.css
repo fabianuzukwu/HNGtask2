@@ -85,6 +85,7 @@ textarea{
     border-style: none;
     border: 1px dotted rgb(27, 26, 26);
     border-radius: 5px;
+    font-size: 18px;
     transition: linear 1s;
 }
 
